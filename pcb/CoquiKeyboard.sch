@@ -43,4 +43,22 @@ Connection ~ 7250 1450
 Connection ~ 7350 1450
 Wire Wire Line
 	7350 1450 7250 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5CDE37FF
+P 6900 5200
+F 0 "#PWR?" H 6900 4950 50  0001 C CNN
+F 1 "GND" H 6905 5027 50  0000 C CNN
+F 2 "" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	1    6900 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5050 7250 5050
+Wire Wire Line
+	6900 5050 6900 5200
+Connection ~ 7250 5050
+Wire Wire Line
+	7250 5050 6900 5050
 $EndSCHEMATC
