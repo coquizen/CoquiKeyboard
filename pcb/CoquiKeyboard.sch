@@ -381,4 +381,8 @@ F 3 "" H 6600 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6600 1300 6600 1150
+Text GLabel 5000 2750 0    50   Input ~ 0
+D+
+Text GLabel 5000 2850 0    50   Input ~ 0
+D-
 $EndSCHEMATC
