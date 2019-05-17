@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:CoquiKeyboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -145,4 +146,96 @@ Wire Wire Line
 	6750 3050 6000 3050
 Wire Wire Line
 	6000 3250 6000 3400
+$Comp
+L power:+5V #PWR?
+U 1 1 5CDF4D90
+P 4000 3050
+F 0 "#PWR?" H 4000 2900 50  0001 C CNN
+F 1 "+5V" H 4015 3223 50  0000 C CNN
+F 2 "" H 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0001 C CNN
+	1    4000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDF55C6
+P 4000 3550
+F 0 "#PWR?" H 4000 3300 50  0001 C CNN
+F 1 "GND" H 4005 3377 50  0000 C CNN
+F 2 "" H 4000 3550 50  0001 C CNN
+F 3 "" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CDF8B07
+P 3500 3300
+F 0 "C?" H 3592 3346 50  0000 L CNN
+F 1 "0.1uF" H 3592 3255 50  0000 L CNN
+F 2 "" H 3500 3300 50  0001 C CNN
+F 3 "~" H 3500 3300 50  0001 C CNN
+	1    3500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CDFA63A
+P 3800 3300
+F 0 "C?" H 3892 3346 50  0000 L CNN
+F 1 "0.1uF" H 3892 3255 50  0000 L CNN
+F 2 "" H 3800 3300 50  0001 C CNN
+F 3 "~" H 3800 3300 50  0001 C CNN
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CDFA909
+P 4150 3300
+F 0 "C?" H 4242 3346 50  0000 L CNN
+F 1 "0.1uF" H 4242 3255 50  0000 L CNN
+F 2 "" H 4150 3300 50  0001 C CNN
+F 3 "~" H 4150 3300 50  0001 C CNN
+	1    4150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CDFAC49
+P 4400 3300
+F 0 "C?" H 4492 3346 50  0000 L CNN
+F 1 "10uF" H 4492 3255 50  0000 L CNN
+F 2 "" H 4400 3300 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 3200
+Wire Wire Line
+	3800 3200 4000 3200
+Wire Wire Line
+	4000 3050 4000 3200
+Connection ~ 4000 3200
+Wire Wire Line
+	4000 3200 4150 3200
+Connection ~ 3800 3400
+Wire Wire Line
+	3800 3400 4000 3400
+Wire Wire Line
+	4000 3550 4000 3400
+Connection ~ 4000 3400
+Wire Wire Line
+	4000 3400 4150 3400
+Wire Wire Line
+	3500 3200 3800 3200
+Wire Wire Line
+	3500 3400 3800 3400
+Connection ~ 4150 3200
+Connection ~ 4150 3400
+Wire Wire Line
+	4150 3200 4400 3200
+Wire Wire Line
+	4150 3400 4400 3400
 $EndSCHEMATC
