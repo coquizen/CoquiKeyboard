@@ -251,4 +251,79 @@ F 3 "" H 6200 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6750 2550 6200 2550
+$Comp
+L Device:Crystal_GND24_Small Y?
+U 1 1 5CE138C0
+P 5650 2050
+F 0 "Y?" V 5604 2194 50  0000 L CNN
+F 1 "Crystal_GND24_Small" V 5695 2194 50  0000 L CNN
+F 2 "" H 5650 2050 50  0001 C CNN
+F 3 "~" H 5650 2050 50  0001 C CNN
+	1    5650 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 1950 6750 1950
+$Comp
+L Device:C_Small C?
+U 1 1 5CE17419
+P 5350 1800
+F 0 "C?" V 5121 1800 50  0000 C CNN
+F 1 "22pF" V 5212 1800 50  0000 C CNN
+F 2 "" H 5350 1800 50  0001 C CNN
+F 3 "~" H 5350 1800 50  0001 C CNN
+	1    5350 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CE17DB6
+P 5350 2300
+F 0 "C?" V 5121 2300 50  0000 C CNN
+F 1 "22pF" V 5212 2300 50  0000 C CNN
+F 2 "" H 5350 2300 50  0001 C CNN
+F 3 "~" H 5350 2300 50  0001 C CNN
+	1    5350 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 1950 5450 1950
+Wire Wire Line
+	5450 1950 5450 1800
+Connection ~ 5650 1950
+Wire Wire Line
+	5550 2050 5550 2350
+Wire Wire Line
+	5750 2050 5750 2350
+Wire Wire Line
+	5750 2350 5550 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5CE2576A
+P 5250 2450
+F 0 "#PWR?" H 5250 2200 50  0001 C CNN
+F 1 "GND" H 5255 2277 50  0000 C CNN
+F 2 "" H 5250 2450 50  0001 C CNN
+F 3 "" H 5250 2450 50  0001 C CNN
+	1    5250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1800 5250 2300
+Connection ~ 5250 2300
+Wire Wire Line
+	5250 2300 5250 2450
+Wire Wire Line
+	5450 2300 5450 2150
+Wire Wire Line
+	5450 2150 5650 2150
+Connection ~ 5650 2150
+Wire Wire Line
+	5650 2150 6750 2150
+Wire Wire Line
+	5550 2350 5550 2450
+Wire Wire Line
+	5550 2450 5250 2450
+Connection ~ 5550 2350
+Connection ~ 5250 2450
 $EndSCHEMATC
