@@ -1215,27 +1215,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 4525 5475 4525
 Wire Wire Line
-	1475 5275 1575 5275
-Wire Wire Line
 	4500 4550 4500 4525
 Wire Wire Line
 	4500 4525 4575 4525
-Wire Wire Line
-	1775 5275 1875 5275
-Wire Wire Line
-	1175 5275 1275 5275
-Wire Wire Line
-	4750 5300 4750 5275
-Wire Wire Line
-	4750 5275 4850 5275
-Wire Wire Line
-	5050 5300 5050 5275
-Wire Wire Line
-	5050 5275 5150 5275
-Wire Wire Line
-	2400 6100 2400 6075
-Wire Wire Line
-	2400 6075 2475 6075
 $Comp
 L Device:D_Small D?
 U 1 1 5D17B7BC
@@ -1328,8 +1310,6 @@ Wire Wire Line
 	1200 6950 1200 6850
 Wire Wire Line
 	1200 6850 1275 6850
-Wire Wire Line
-	1175 5275 1175 5300
 Wire Wire Line
 	4825 6050 4825 6025
 Wire Wire Line
@@ -1636,12 +1616,6 @@ $EndComp
 Wire Wire Line
 	2700 6800 2775 6800
 Wire Wire Line
-	1175 5300 1200 5300
-Wire Wire Line
-	1475 5300 1500 5300
-Wire Wire Line
-	1775 5300 1800 5300
-Wire Wire Line
 	1200 6050 1275 6050
 Wire Wire Line
 	1275 6050 1275 6025
@@ -1657,10 +1631,6 @@ Wire Wire Line
 	2100 6050 2175 6050
 Wire Wire Line
 	2175 6050 2175 6025
-Wire Wire Line
-	2400 6050 2475 6050
-Wire Wire Line
-	2475 6050 2475 6025
 Wire Wire Line
 	2700 6050 2700 6025
 Wire Wire Line
@@ -1732,28 +1702,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 6775 3375 6775
 Wire Wire Line
-	1475 4325 1475 5075
-Connection ~ 1475 5075
-Wire Wire Line
-	1475 5075 1475 5275
-Connection ~ 1475 5275
-Wire Wire Line
-	1475 5275 1475 5300
-Wire Wire Line
-	1775 4325 1775 5075
-Connection ~ 1775 5075
-Wire Wire Line
-	1775 5075 1775 5275
-Connection ~ 1775 5275
-Wire Wire Line
-	1775 5275 1775 5300
-Connection ~ 1775 5300
-Wire Wire Line
-	1775 5300 1775 5825
-Connection ~ 1775 5825
-Wire Wire Line
-	1775 5825 1775 6575
-Wire Wire Line
 	2100 5300 2100 5275
 Wire Wire Line
 	2100 5275 2175 5275
@@ -1785,4 +1733,32 @@ Wire Wire Line
 	4250 5275 4175 5275
 Wire Wire Line
 	4175 5275 4175 5300
+Wire Wire Line
+	3275 5300 3275 5275
+Wire Wire Line
+	3275 5275 3350 5275
+Wire Wire Line
+	4775 5300 4775 5275
+Wire Wire Line
+	4775 5275 4850 5275
+Wire Wire Line
+	5075 5300 5075 5275
+Wire Wire Line
+	5075 5275 5150 5275
+Wire Wire Line
+	1200 5300 1200 5275
+Wire Wire Line
+	1200 5275 1275 5275
+Wire Wire Line
+	1500 5300 1500 5275
+Wire Wire Line
+	1500 5275 1575 5275
+Wire Wire Line
+	1800 5300 1800 5275
+Wire Wire Line
+	1800 5275 1875 5275
+Wire Wire Line
+	2400 6050 2400 6025
+Wire Wire Line
+	2400 6025 2475 6025
 $EndSCHEMATC
