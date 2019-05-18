@@ -964,12 +964,12 @@ $EndComp
 $Comp
 L MX_Alps_Hybrids:MX-2.75U MX?
 U 1 1 5CF84597
-P 3400 6600
-F 0 "MX?" H 3486 6817 60  0000 C CNN
-F 1 "MX-2.75U" H 3486 6743 20  0000 C CNN
-F 2 "" H 3375 6575 60  0001 C CNN
-F 3 "" H 3375 6575 60  0001 C CNN
-	1    3400 6600
+P 3400 6575
+F 0 "MX?" H 3486 6792 60  0000 C CNN
+F 1 "MX-2.75U" H 3486 6718 20  0000 C CNN
+F 2 "" H 3375 6550 60  0001 C CNN
+F 3 "" H 3375 6550 60  0001 C CNN
+	1    3400 6575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1680,12 +1680,12 @@ $EndComp
 $Comp
 L Device:D_Small D?
 U 1 1 5D17FDB7
-P 3275 6925
-F 0 "D?" V 3321 6857 50  0000 R CNN
-F 1 " SOD-123" V 3230 6857 50  0000 R CNN
-F 2 "" V 3275 6925 50  0001 C CNN
-F 3 "~" V 3275 6925 50  0001 C CNN
-	1    3275 6925
+P 3275 6900
+F 0 "D?" V 3321 6832 50  0000 R CNN
+F 1 " SOD-123" V 3230 6832 50  0000 R CNN
+F 2 "" V 3275 6900 50  0001 C CNN
+F 3 "~" V 3275 6900 50  0001 C CNN
+	1    3275 6900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1730,9 +1730,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 6775 2175 6775
 Wire Wire Line
-	3275 6825 3275 6775
+	3275 6800 3275 6750
 Wire Wire Line
-	3275 6775 3375 6775
+	3275 6750 3375 6750
 Wire Wire Line
 	4200 6800 4200 6775
 Wire Wire Line
@@ -1951,17 +1951,11 @@ Wire Wire Line
 Connection ~ 2100 7000
 Wire Wire Line
 	2100 7000 2400 7000
-Connection ~ 2400 7000
-Wire Wire Line
-	2400 7000 4200 7000
-Connection ~ 4200 7000
 Wire Wire Line
 	4200 7000 4500 7000
 Connection ~ 4500 7000
 Wire Wire Line
 	4500 7000 4800 7000
-Wire Wire Line
-	3575 6550 3575 5825
 Connection ~ 3575 4325
 Wire Wire Line
 	3575 4325 3575 3850
@@ -1969,8 +1963,6 @@ Connection ~ 3575 5075
 Wire Wire Line
 	3575 5075 3575 4325
 Connection ~ 3575 5825
-Wire Wire Line
-	3575 5825 3575 5075
 Wire Wire Line
 	3875 5825 3875 5075
 Connection ~ 3875 4325
@@ -2029,4 +2021,51 @@ Wire Wire Line
 Wire Wire Line
 	3275 4325 3275 3850
 Connection ~ 3275 4325
+Text GLabel 1475 3850 1    50   Input ~ 0
+COL0
+Text GLabel 1775 3850 1    50   Input ~ 0
+COL1
+Text GLabel 2075 3850 1    50   Input ~ 0
+COL2
+Text GLabel 2675 3850 1    50   Input ~ 0
+COL4
+Text GLabel 2375 3850 1    50   Input ~ 0
+COL3
+Text GLabel 2975 3850 1    50   Input ~ 0
+COL5
+Text GLabel 3275 3850 1    50   Input ~ 0
+COL6
+Text GLabel 3575 3850 1    50   Input ~ 0
+COL7
+Text GLabel 3875 3850 1    50   Input ~ 0
+COL8
+Text GLabel 4175 3850 1    50   Input ~ 0
+COL9
+Text GLabel 4475 3850 1    50   Input ~ 0
+COL10
+Text GLabel 4775 3850 1    50   Input ~ 0
+COL11
+Text GLabel 5075 3850 1    50   Input ~ 0
+COL12
+Text GLabel 825  5500 0    50   Input ~ 0
+ROW1
+Text GLabel 850  4750 0    50   Input ~ 0
+ROW0
+Text GLabel 850  6250 0    50   Input ~ 0
+ROW2
+Text GLabel 800  7000 0    50   Input ~ 0
+ROW3
+Wire Wire Line
+	2400 7000 3275 7000
+Wire Wire Line
+	3575 5800 3575 5825
+Wire Wire Line
+	3575 5075 3575 5825
+Connection ~ 2400 7000
+Connection ~ 4200 7000
+Connection ~ 3275 7000
+Wire Wire Line
+	3275 7000 4200 7000
+Wire Wire Line
+	3575 5825 3575 6550
 $EndSCHEMATC
