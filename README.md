@@ -61,7 +61,7 @@
 
 [![Keyboard Layout][keyboard-layout]](https://github.com/CaninoDev/CoquiKeyboard)
 
-The coquí is a species of frog native to the island of Puerto Rico. Typically, they are no larger than penny. They are so named for the loud mating call, _co-kee_. Similarly, this keyboard is a compact 40% keyboard with an extra column of two keys on the right intended for volume control. This keyboard is loosely based on  [Clueboard](https://clueboard.co/)
+The coquí is a species of frog native to the island of Puerto Rico. Typically, they are no larger than a penny. They are so named for the loud mating call, _co-kee_. Similarly, this keyboard is a compact 40% keyboard with an extra column of two keys on the right intended for volume control. This keyboard is loosely based on  [Clueboard](https://clueboard.co/)
 
 
 ### Built With
