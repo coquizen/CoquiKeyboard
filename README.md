@@ -58,9 +58,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+Initial version 
 [![Keyboard Layout][keyboard-layout]](https://github.com/CaninoDev/CoquiKeyboard)
-
+ Finalized version
+[![Keyboard_Layout_Finalized][keyboard-layout2]](https://i.imgur.com/WaaT3K5.png)
 The coquí is a species of frog native to the island of Puerto Rico. Typically, they are no larger than a penny. They are so named for the loud mating call, _co-kee_. Similarly, this keyboard is a compact 40% keyboard with an extra column of two keys on the right intended for volume control. This keyboard is loosely based on  [Clueboard](https://clueboard.co/)
 
 
@@ -108,4 +109,5 @@ Distributed under the GPL License. See `LICENSE` for more information.
 
 [license-shield]: https://img.shields.io/badge/license-GPL-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
-[keyboard-layout]: https://i.imgur.com/pRL0Bjm.png
+[keyboard-layout]: https://i.imgur.com/pRL0Bjm.png\
+[keyboard-layout2]: https://i.imgur.com/WaaT3K5.png
