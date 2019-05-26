@@ -1,0 +1,35 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,LCSC Link
+1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3,0.1uF,C_0805_2012Metric,3,~,https://lcsc.com/product-detail/Others_CCTC-TCC0805X7R104M500DT_C360619.html
+2,"Unpolarized capacitor, small symbol",C_Small,C4,10uF,C_0805_2012Metric,1,~,https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL21A106KQFNNNE_Samsung-Electro-Mechanics-CL21A106KQFNNNE_C307525.html
+3,"Unpolarized capacitor, small symbol",C_Small,C7,1uF,C_0805_2012Metric,1,~,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-5-25V_C106837.html
+4,"Unpolarized capacitor, small symbol",C_Small,C5 C6,22pF,C_0805_2012Metric,2,~,https://lcsc.com/product-detail/New-Arrivals_CCTC-TCC0805COG220J500BT_C376875.html
+5,"Diode, small symbol",D_Small,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D41 D42 D43 D44 D45 D46 D47 D48 D49 D50 D51 D52 D53 D54,D,D_SOD-123,54,~,https://lcsc.com/product-detail/Switching-Diode_IN4148W_C181134.html
+6,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F1,500mA,Fuse_1206_3216Metric,1,~,https://lcsc.com/product-detail/Others_Littelfuse_1206L050YR_Littelfuse-1206L050YR_C163512.html
+7,,MX-1.25U,MX16 MX41-1 MX45 MX46 MX49 MX50,MX-1.25U,MXOnly-1.25U-NoLED,6,,
+8,,MX-1.25U-FLIPPED,MX42,MX-1.25U,MXOnly-1.25U-NoLED,1,,
+9,,MX-1.75U,MX28 MX30,MX-1.75U,MXOnly-1.75U-NoLED,2,,
+10,,MX-1U,MX1 MX2 MX3 MX4 MX5 MX6 MX7 MX8 MX9 MX10 MX11 MX12 MX13 MX14 MX17 MX18 MX19 MX20 MX21 MX22 MX23 MX24 MX25 MX26 MX27 MX31 MX32 MX33 MX34 MX35 MX36 MX37 MX38 MX39 MX40 MX41 MX44 MX51 MX52 MX53,MX-1U,MXOnly-1U-NoLED,40,,
+11,,MX-1U-FLIPPED,MX15 MX29 MX42-1 MX43 MX54,MX-1U,MXOnly-1U-NoLED,5,,
+12,,MX-2.25U,MX47,MX-2.25U,MXOnly-2.25U-ReversedStabilizers-NoLED,1,,
+13,,MX-2.75U,MX48,MX-2.75U,MXOnly-2.75U-ReversedStabilizers-NoLED,1,,
+14,"Resistor, small symbol",R_Small,R1 R4,10k,R_0805_2012Metric,2,~,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C115295.html
+15,"Resistor, small symbol",R_Small,R2 R3,22,R_0805_2012Metric,2,~,https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8J0220T5E_C25295.html
+16,,SW_Push-Switch,SW1,SW_Push,SKQG-1155865,1,~,https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKQGABE010_5-2-5-2-1-5-1-57N_C115351.html
+17,"16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44",ATmega32U4-AU,U1,ATmega32U4-AU,TQFP-44_10x10mm_P0.8mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf,https://lcsc.com/product-detail/ATMEL-AVR_ATMEL_ATMEGA32U4-AU_ATMEGA32U4-AU_C44854.html
+18,,USB-Mini-B_ LCSC-C46398,USB1,USB Mini,USB-Mini-B_ LCSC-C46398,1,,https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-LCSC-MINI-5PFemale90Degree-plate-four-feet-copper-shell-LCPVinyl-High-temperature_C46398.html
+19,,Crystal_GND24_Small-Device,Y1,16MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,~,https://lcsc.com/product-detail/SMD-Crystals_EPSON_X1E000021011900_TSX-3225-16MHZ-12PF-10PPM_C89371.html
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Component Groups:,19,,,,,,,
+Component Count:,126,,,,,,,
+Fitted Components:,126,,,,,,,
+Number of PCBs:,1,,,,,,,
+Total components:,126,,,,,,,
+Schematic Version:,,,,,,,,
+Schematic Date:,,,,,,,,
+BoM Date:,5/26/2019 14:05,,,,,,,
+Schematic Source:,E:\Desktop\Peioris Boards\pcb comms\CoquiKeyboard\pcb\CoquiKeyboard.sch,,,,,,,
+KiCad Version:,Eeschema (5.0.1)-4,,,,,,,
