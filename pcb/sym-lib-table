@@ -3,4 +3,5 @@
   (lib (name MX_Alps_Hybrids)(type Legacy)(uri "${KIPRJMOD}/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrids.lib")(options "")(descr ""))
   (lib (name CoquiKeyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/CoquiKeyboard-rescue.lib)(options "")(descr ""))
   (lib (name CoquiLogo)(type Legacy)(uri ${KIPRJMOD}/CoquiLogo.lib)(options "")(descr ""))
+  (lib (name ComboDiode)(type Legacy)(uri /home/caninodev/Developments/Repositories/wc40noled/combodiode.pretty/ComboDiode.lib)(options "")(descr ""))
 )
