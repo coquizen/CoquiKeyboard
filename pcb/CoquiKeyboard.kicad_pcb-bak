@@ -326,7 +326,7 @@
     (pad "" np_thru_hole circle (at 5.08 0 131.9004) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask))
   )
 
-  (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5CEE6D69)
+  (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5CF3FA35)
     (at 133.3985 34.544)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
@@ -362,7 +362,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5CF12FDE)
+  (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5CF3F965)
     (at 133.3985 36.83)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5142,8 +5142,8 @@
 
   (via (at 135.382 36.83) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 0))
   (via (at 131.445 36.83) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 0))
-  (via (at 131.445 34.544) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 0))
-  (via (at 135.382 34.544) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 0))
+  (via (at 131.445 34.544) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 0) (tstamp 5CF3F9EC))
+  (via (at 135.382 34.544) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 0) (tstamp 5CF3FA7D))
   (segment (start 305.290912 54.247624) (end 304.159912 54.247624) (width 0.381) (layer B.Cu) (net 1))
   (segment (start 309.059912 52.878624) (end 307.690912 54.247624) (width 0.381) (layer B.Cu) (net 1))
   (segment (start 307.690912 54.247624) (end 305.290912 54.247624) (width 0.381) (layer B.Cu) (net 1))
@@ -5975,7 +5975,7 @@
   (segment (start 310.157948 83.939008) (end 302.5775 76.35856) (width 0.2032) (layer F.Cu) (net 83))
   (segment (start 318.16908 59.903592) (end 318.16908 63.386256) (width 0.2032) (layer B.Cu) (net 83))
   (via (at 310.157948 83.939008) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 83))
-  (segment (start 134.501398 34.544) (end 134.336 34.544) (width 0.25) (layer B.Cu) (net 84))
+  (segment (start 134.501398 34.544) (end 134.336 34.544) (width 0.25) (layer B.Cu) (net 84) (tstamp 5CF3FA57))
   (segment (start 315.559912 54.247624) (end 317.227096 54.247624) (width 0.25) (layer B.Cu) (net 86))
   (segment (start 317.227096 54.247624) (end 317.598968 53.875752) (width 0.25) (layer B.Cu) (net 86))
   (segment (start 317.598968 53.875752) (end 317.598968 53.429268) (width 0.25) (layer B.Cu) (net 86))
