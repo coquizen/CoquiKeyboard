@@ -1,0 +1,28 @@
+Drill report for /home/caninodev/Developments/Projects/CoquiKeyboard/pcb/CoquiKeyboard.kicad_pcb
+Created on Wed 12 Jun 2019 09:28:29 PM EDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'CoquiKeyboard-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (27 holes)
+    T2  0.40mm  0.016"  (18 holes)
+    T3  0.60mm  0.024"  (4 holes)  (with 4 slots)
+    T4  1.47mm  0.058"  (112 holes)
+
+    Total plated holes count 161
+
+
+Drill file 'CoquiKeyboard-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.75mm  0.069"  (112 holes)
+    T2  3.05mm  0.120"  (4 holes)
+    T3  3.99mm  0.157"  (60 holes)
+
+    Total unplated holes count 176

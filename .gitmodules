@@ -7,3 +7,6 @@
 [submodule "pcb/Keebio-Parts.pretty"]
 	path = pcb/Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "pcb/Type-C.pretty"]
+	path = pcb/Type-C.pretty
+	url = https://github.com/ai03-2725/Type-C.pretty
